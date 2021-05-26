@@ -21,7 +21,7 @@ colors = [
 
 button.addEventListener("click", () => {
 
-    let randomIndex = RandomNumber(colors.length)
+    const randomIndex = RandomNumber(colors.length)
     body.style.backgroundColor = colors[randomIndex]
     colorDisplay.innerText = colors[randomIndex]
     nav.style.boxShadow = "none"
