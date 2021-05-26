@@ -3,8 +3,6 @@ const button = document.querySelector(".clickme")
 const colorDisplay = document.querySelector(".current-color")
 const nav = document.querySelector("nav")
 
-const hexDigits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F", "G"]
-
 button.addEventListener("click", () => {
 
     const pair1 = Process()
