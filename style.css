@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1f5f8;
+}
+
+.container div {
+    background-color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    font-size: 50px;
+    width: auto;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.clickme {
+    margin: 25px;
+    padding: 5px;
+    height: 35px;
+    width: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.clickme:hover {
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+}
+
+.current-color {
+    color: rgb(9, 176, 231);
+}
+
