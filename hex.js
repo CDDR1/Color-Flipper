@@ -10,8 +10,6 @@ button.addEventListener("click", () => {
     const pair1 = Process()
     const pair2 = Process()
     const pair3 = Process()
-
-    const hexColor = [pair1[0], pair1[1], pair2[0], pair2[1], pair3[0], pair3[1]]
     
     body.style.backgroundColor = "#" + pair1[0] + pair1[1] + pair2[0] + pair2[1] + pair3[0] + pair3[1]
     colorDisplay.innerText = "#" + pair1[0] + pair1[1] + pair2[0] + pair2[1] + pair3[0] + pair3[1]
@@ -136,7 +134,7 @@ const AssignValueToDigits = (a, b) => {
             b = 9
             break
         case "A":
-            b = 0
+            b = 10
             break
         case "B":
             b = 11
