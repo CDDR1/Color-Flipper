@@ -10,4 +10,4 @@ The Hex mode is more interesting tho, because it can generate "infinite" amount 
 a fixed amount of colors, instead, it generates the colors on the fly.
 
 This was a really fun and interesting project because I had to learn about how hexadecimal colors work so that I could develop 
-the "logic" for generating pretty much any possible hex color code. 
+the logic for generating pretty much any possible hex color code. 
